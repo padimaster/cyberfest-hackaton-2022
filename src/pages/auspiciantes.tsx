@@ -11,10 +11,8 @@ export default function Home (): JSX.Element {
 
       <Header />
 
-      <main className='h-screen '>
-        <section>
+      <main>
 
-        </section>
       </main>
 
       <Footer />

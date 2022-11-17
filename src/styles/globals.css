@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer components {
-  .heroButton {
-    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40;
+  .navButton {
+    @apply px-6 py-2 border border-[#000B20] font-medium rounded-full text-white
+    transition-all hover:border-green-400/90 hover:text-green-400/90;
   }
 }
